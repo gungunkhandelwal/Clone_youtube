@@ -1,0 +1,185 @@
+body {
+    background-color: #f9f9f9;
+
+}
+
+.yt-header {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+
+}
+
+.yt-logo {
+    height: 29px;
+    margin: 7px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/*img{
+    height: 60px;
+    width: 90px;
+    padding: 18px 14px 18px 16px;
+    flex: none;
+}*/
+
+.yt-search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchicon {
+    outline: none;
+    padding: 4px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchicon::-webkit-input-placeholder {
+    font-size: 17px;
+}
+
+.searchbar {
+    padding: 8px;
+    border: 1px solid grey;
+    background-color: #f8f8f8;
+    padding-right: 25px;
+    padding-left: 25px;
+    outline: none;
+    cursor: pointer;
+}
+
+.yt-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mic-icon {
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+.icons {
+    margin: 13px;
+    margin-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* ---Side Menu Bar */
+
+.menu-bar {
+    display: flex;
+    flex-direction: row;
+}
+.sider-bar {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+}
+
+.sidebar-icons {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.sidebar-icons:hover {
+    background-color: #606060;
+
+}
+
+.sidebar-icons i {
+    font-size: 20px;
+    color: #606060;
+    margin: 5px;
+    margin-right: 15px; 
+    margin-left: 5px;
+}
+
+.sidebar-icons h2 {
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+
+.icons-hr {
+    height: 1px;
+    border-top: 1px solid #606060;
+    width: 100%;
+    margin: 10px;
+}
+
+/*main content */
+.Main-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    flex: 1;
+    margin-left: 250px;
+    width: 100%;
+}
+
+
+.video-frame{
+    display: flex;
+    flex-direction:column;
+    height: fit-content;
+    width: 280px;
+    padding: 10px;
+    cursor: pointer;
+    border:10px;
+}
+
+.video-detail{
+    display: flex;
+    flex-direction: column;
+
+}
+.content{
+       font-size: 20px;
+       font-family: 'Roboto';
+       color:#000;
+       font-weight: 500;
+       margin: 10px;
+       margin-top: 15px;
+       margin-bottom: 0;
+       margin-left: 10px;
+   }
+
+.channel-name,.content-view{
+    font-size: 15px;
+    font-family: 'Roboto';
+    color: #606060;
+    font-weight: 350;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.content-view{
+    margin-top: -12px;
+}
